@@ -7,7 +7,7 @@ const navigation = [
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+    <main className="flex min-h-screen flex-col items-center justify-center p-6 sm:p-12 md:p-24">
       <nav className="my-16">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
