@@ -5,5 +5,5 @@ export default function Home() {
         <h1 className="text-7xl">Rich McCluskey</h1>
       </div>
     </main>
-  )
+  );
 }
