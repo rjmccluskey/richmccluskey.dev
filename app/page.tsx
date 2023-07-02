@@ -42,7 +42,7 @@ export default function Home() {
       <h1
         className={`
           bg-gradient-to-r
-          from-blue-500
+          from-sky-600
           from-10%
           to-amber-600
           bg-clip-text
