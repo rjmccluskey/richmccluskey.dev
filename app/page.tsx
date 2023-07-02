@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Particles } from '@/components';
 
 const navigation = [
   { name: 'Projects', href: '/projects' },
@@ -23,6 +24,7 @@ export default function Home() {
         md:p-24
       `}
     >
+      <Particles className="absolute inset-0 -z-10" quantity={50} />
       <nav className="my-16">
         <ul className="flex items-center justify-center gap-4">
           {navigation.map((item) => (
