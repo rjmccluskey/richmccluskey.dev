@@ -63,7 +63,17 @@ export default function Contact() {
           <Link href={contact.href} target="_blank" key={contact.href}>
             <section
               key={contact.label}
-              className="m-6 p-4 shadow-xl shadow-slate-500/10 duration-200 hover:scale-105 hover:brightness-200"
+              className={`
+                m-6
+                rounded
+                bg-black
+                p-4
+                shadow-xl
+                shadow-slate-500/10
+                duration-200
+                hover:scale-105
+                hover:brightness-200
+              `}
             >
               <h2 className="flex items-center">
                 {contact.icon}{' '}
