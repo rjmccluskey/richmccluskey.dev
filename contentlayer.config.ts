@@ -25,10 +25,6 @@ const Project = defineDocumentType(() => ({
     },
   },
   computedFields: {
-    path: {
-      type: 'string',
-      resolve: (doc) => `/posts/${doc._raw.flattenedPath}`,
-    },
     slug: {
       type: 'string',
       resolve: (doc) => doc._raw.flattenedPath.split('/').slice(1).join('/'),
